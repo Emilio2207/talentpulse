@@ -1,0 +1,4 @@
+*** Let's setup colors for the projects from file
+## let's use the colors
+
+#step-2: setup fonts
