@@ -19,17 +19,27 @@ const Products = () => {
           </div>
           <div className="md:w-3/5 mx-auto">
             <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5">
-              How to design your site footer like we did
+              <span className="text-brandPrimary">eBooks</span>{" "}
+              Especializados en Tecnologia, Marketing y Selección de
+              Personal
             </h2>
             <p className="md:w-3/4 text-sm text-neutralGrey mb-8">
-              Donec maximus felis et auctor volutpat. Ut viverra nibh
-              nibh, ac suscipit sem viverra ut. Fusce facilisis orci
-              sapien, nec malesuada sapien hendrerit ut. Duis non
-              dictum quam. Suspendisse potenti. Mauris id euismod
-              enim. Duis tristique diam orci, at sollicitudin sem
-              finibus nec.
+              Bienvenido a nuestra colección de eBooks, creados para
+              brindar conocimientos clave en tecnología, marketing
+              digital y selección de personal. Cada eBook ofrece
+              información práctica y actualizada, diseñada para
+              mejorar tus habilidades y mantenerte al día con las
+              últimas tendencias.
             </p>
-            <button className="btn-primary">Learn More</button>
+            <p className="md:w-3/4 text-sm text-neutralGrey mb-8">
+              Descubre estrategias efectivas de marketing, profundiza
+              en las tecnologías más relevantes y aprende técnicas
+              avanzadas de reclutamiento. Estos recursos te ayudarán a
+              avanzar en tu carrera y alcanzar tus objetivos
+              profesionales. ¡Explora nuestra biblioteca y comienza tu
+              viaje hacia el éxito!
+            </p>
+            <button className="btn-primary">Proximamente!</button>
           </div>
         </div>
       </div>
@@ -48,16 +58,28 @@ const Products = () => {
           <div className="md:w-2/3 mx-auto">
             <div>
               <p className="md:w-4/5 text-sm text-neutralGrey mb-8 leading-7">
-                In vitae placerat sapien. Donec sed mi nunc. Nunc
-                mauris eros, accumsan eget accumsan eu, dapibus
-                hendrerit nulla. Etiam facilisis mauris nec ultrices
-                malesuada. Nulla iaculis faucibus pretium. Maecenas
-                fermentum vehicula elit. Proin lorem orci, lacinia a
-                malesuada non, suscipit rutrum ante. Donec sodales
-                eget purus a dapibus.
+                <span className="text-brandPrimary font-semibold">
+                  Especialización en Marketing y Tecnología:{" "}
+                </span>
+                Conozco las tendencias y las demandas de estos
+                sectores en constante evolución.
+              </p>
+              <p className="md:w-4/5 text-sm text-neutralGrey mb-8 leading-7">
+                <span className="text-brandPrimary font-semibold">
+                  Red Amplia:{" "}
+                </span>
+                Cuento con una extensa red de contactos y recursos que
+                me permite acceder a talentos de alto nivel.
+              </p>
+              <p className="md:w-4/5 text-sm text-neutralGrey mb-8 leading-7">
+                <span className="text-brandPrimary font-semibold">
+                  Compromiso con la Calidad:{" "}
+                </span>
+                No me conformo con menos que la excelencia en cada
+                etapa del proceso de reclutamiento.
               </p>
               <h5 className="text-brandPrimary text-xl font-semibold mb-2">
-                Tim Smith
+                ¿Por qué Elegirme?
               </h5>
               <p className="text-base text-neutralGrey mb-8">
                 British Dragon Boat Racing Association

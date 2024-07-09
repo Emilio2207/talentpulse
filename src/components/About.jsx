@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+import PropTypes from "prop-types";
 import aboutImg from "../assets/about1.png";
 
 const About = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
   return (
     <div>
       {/* about text */}
@@ -21,13 +27,14 @@ const About = () => {
               The unseen of spending three years at Pixelgrade
             </h2>
             <p className="md:w-3/4 text-sm text-neutralGrey mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Fusce sodales imperdiet tristique. Duis a dui convallis,
-              euismod sapien id, feugiat leo. Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit. Etiam finibus ipsum
-              fringilla metus mollis convallis.
+              ¡Hola! Soy{" "}
+              <span className="text-brandPrimary">Victoria</span> una
+              apasionada reclutadora especializada en los sectores de
+              marketing y tecnología.
             </p>
-            <button className="btn-primary">Learn More</button>
+            <button className="btn-primary" onClick={openModal}>
+              Learn More
+            </button>
           </div>
         </div>
       </div>
@@ -37,12 +44,15 @@ const About = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="md:w-1/2">
             <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-2/3">
-              Helping a local <br />
+              Herramientas de <br />
               <span className="text-brandPrimary">
-                business reinvent itself
+                Colaboración y Comunicación
               </span>
             </h2>
-            <p>We reached here with our hard work and dedication</p>
+            <p>
+              Comunicación y coordinación eficientes con clientes y
+              candidatos.
+            </p>
           </div>
 
           {/* stats */}
@@ -55,18 +65,18 @@ const About = () => {
                 <img src="/src/assets/icons/member.png" alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
-                    2,245,341
+                    53+
                   </h4>
-                  <p>Members</p>
+                  <p>Slack</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
                 <img src="/src/assets/icons/event.png" alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
-                    828,867
+                    400+
                   </h4>
-                  <p>Event Bookings</p>
+                  <p>Meet</p>
                 </div>
               </div>
             </div>
@@ -75,26 +85,60 @@ const About = () => {
                 <img src="/src/assets/icons/club.png" alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
-                    46,328
+                    60+
                   </h4>
-                  <p>Clubs</p>
+                  <p>Discord</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
                 <img src="/src/assets/icons/payment.png" alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
-                    1,926,436
+                    40+
                   </h4>
-                  <p>Payments</p>
+                  <p>Teams</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      {isModalOpen && (
+        <Modal onClose={closeModal}>
+          <h2 className="text-2xl font-semibold mb-4">
+            Más detalles sobre Victoria
+          </h2>
+          <p className="mb-4">
+            Victoria tiene más de diez años de experiencia en
+            reclutamiento y ha trabajado con empresas de renombre en
+            todo el mundo. Su pasión por la tecnología y el marketing
+            la convierte en una experta en encontrar los mejores
+            talentos en estos campos.
+          </p>
+          <button className="btn-primary" onClick={closeModal}>
+            Cerrar
+          </button>
+        </Modal>
+      )}
     </div>
   );
+};
+
+const Modal = ({ children, onClose }) => {
+  return (
+    <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50">
+      <div className="bg-white p-8 rounded-lg shadow-lg w-1/2">
+        {children}
+      </div>
+      <div className="fixed inset-0 z-40" onClick={onClose}></div>
+    </div>
+  );
+};
+
+Modal.propTypes = {
+  children: PropTypes.node.isRequired,
+  onClose: PropTypes.func.isRequired,
 };
 
 export default About;
