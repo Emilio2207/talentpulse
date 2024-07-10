@@ -31,12 +31,12 @@ const Navbar = () => {
 
   // navitems array
   const navItems = [
-    { link: "Home", path: "home" },
-    { link: "Service", path: "service" },
-    { link: "About", path: "about" },
-    { link: "Product", path: "product" },
-    { link: "Testimonial", path: "testimonial" },
-    { link: "FAQ", path: "faq" },
+    { link: "Inicio", path: "home" },
+    { link: "Servicio", path: "service" },
+    { link: "Acerca de", path: "about" },
+    { link: "Producto", path: "product" },
+    { link: "Ventajas", path: "testimonial" },
+    { link: "Nuestro Valor", path: "faq" },
   ];
 
   return (

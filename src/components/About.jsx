@@ -24,7 +24,7 @@ const About = () => {
           </div>
           <div className="md:w-3/5 mx-auto">
             <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5">
-              The unseen of spending three years at Pixelgrade
+              Mi historia: fundadora y CEO de Talent Pulse
             </h2>
             <p className="md:w-3/4 text-sm text-neutralGrey mb-8">
               ¡Hola! Soy{" "}
@@ -33,7 +33,7 @@ const About = () => {
               marketing y tecnología.
             </p>
             <button className="btn-primary" onClick={openModal}>
-              Learn More
+              Ver más...
             </button>
           </div>
         </div>
@@ -107,14 +107,16 @@ const About = () => {
       {isModalOpen && (
         <Modal onClose={closeModal}>
           <h2 className="text-2xl font-semibold mb-4">
-            Más detalles sobre Victoria
+            Liderando Talent Pulse con pasión
           </h2>
           <p className="mb-4">
-            Victoria tiene más de diez años de experiencia en
-            reclutamiento y ha trabajado con empresas de renombre en
-            todo el mundo. Su pasión por la tecnología y el marketing
-            la convierte en una experta en encontrar los mejores
-            talentos en estos campos.
+            Una reclutadora apasionada con 5 años de experiencia. Me
+            especializo en formar equipos sólidos y conectar
+            profesionales con oportunidades ideales para su
+            desarrollo. Mi enfoque joven y cercano me permite entender
+            las necesidades únicas de cada cliente y candidato,
+            creando conexiones que construyan relaciones laborales
+            duraderas y exitosas.
           </p>
           <button className="btn-primary" onClick={closeModal}>
             Cerrar

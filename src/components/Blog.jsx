@@ -5,19 +5,22 @@ const Blog = () => {
     {
       id: 1,
       title:
-        "Creating Streamlined Safeguarding Processes with OneRen",
+        "En mi labor, priorizo la eficacia y eficiencia para lograr procesos de reclutamiento ágiles y precisos.",
+      subtitle: "Mi Enfoque",
       image: "/src/assets/blog1.png",
     },
     {
       id: 2,
       title:
-        "What are your safeguarding responsibilities and how can you manege them?",
+        "Transparencia y feedback continuo son esenciales para fomentar la confianza y lograr un ajuste perfecto.",
+      subtitle: "Valores",
       image: "/src/assets/blog2.png",
     },
     {
       id: 3,
       title:
-        "Revamping the Membership Model with Triathlon Australia",
+        "Conecto talento con oportunidades, identificando candidatos adecuados para empresas innovadoras.",
+      subtitle: "Mi Misión",
       image: "/src/assets/blog3.png",
     },
   ];
@@ -28,13 +31,11 @@ const Blog = () => {
     >
       <div className="text-center md:w-1/2 mx-auto">
         <h2 className="text-4xl text-neutralDGrey font-semibold mb-4">
-          Caring is the new marketing
+          Nuestra Filosofía
         </h2>
         <p className="text-sm text-neutralGrey mb-8 md:w-3/4 mx-auto">
-          The Nexcent blog is the place to read about the latest
-          membership insights, trends and more. See who is joining the
-          community, read about how our community are increasing their
-          membership income and lots more
+          Enfoque, Valores y Misión en Reclutamiento, Tecnología y
+          Marketing Digital.
         </p>
       </div>
 
@@ -62,21 +63,7 @@ const Blog = () => {
                   href="/"
                   className="font-bold text-brandPrimary hover:text-neutral-700"
                 >
-                  Readmore
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="17"
-                    height="11"
-                    viewBox="0 0 17 11"
-                    fill="none"
-                    className="inline-block ml-2"
-                  >
-                    <path
-                      d="M12 9.39905L15.2929 6.10615C15.6834 5.71563 15.6834 5.08246 15.2929 4.69194L12 1.
-                          39905M15 5.39905L1 5.39905"
-                      stroke="#4caf4f"
-                    />
-                  </svg>
+                  {blog.subtitle}
                 </a>
               </div>
             </div>

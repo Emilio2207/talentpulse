@@ -1,10 +1,10 @@
 import React from "react";
 import { Footer } from "flowbite-react";
 import {
-  BsFacebook,
-  BsGithub,
+  BsLinkedin,
+  BsDiscord,
   BsInstagram,
-  BsTwitter,
+  BsSlack,
 } from "react-icons/bs";
 import logo from "../assets/logo.png";
 
@@ -34,17 +34,37 @@ const MyFooter = () => {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div>
-              <Footer.Title title="about" />
+              <Footer.Title title="Foros" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Flowbite</Footer.Link>
-                <Footer.Link href="#">Tailwind CSS</Footer.Link>
+                <Footer.Link
+                  href="https://acortar.link/5P8WQy"
+                  target="_blank"
+                >
+                  Slack
+                </Footer.Link>
+                <Footer.Link
+                  href="https://discord.gg/zdmwfKxQ"
+                  target="_blank"
+                >
+                  Discord
+                </Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="Follow us" />
+              <Footer.Title title="Sigueme" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Github</Footer.Link>
-                <Footer.Link href="#">Discord</Footer.Link>
+                <Footer.Link
+                  href="https://www.linkedin.com/company/recruiter-talent-pulse"
+                  target="_blank"
+                >
+                  LinkedIn
+                </Footer.Link>
+                <Footer.Link
+                  href="https://www.instagram.com/recruitertalentpulse/"
+                  target="_blank"
+                >
+                  Instagram
+                </Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
@@ -62,10 +82,26 @@ const MyFooter = () => {
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <Footer.Copyright href="#" by="emi&vico™" year={2024} />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-            <Footer.Icon href="#" icon={BsFacebook} />
-            <Footer.Icon href="#" icon={BsInstagram} />
-            <Footer.Icon href="#" icon={BsTwitter} />
-            <Footer.Icon href="#" icon={BsGithub} />
+            <Footer.Icon
+              href="https://www.linkedin.com/company/recruiter-talent-pulse"
+              target="_blank"
+              icon={BsLinkedin}
+            />
+            <Footer.Icon
+              href="https://www.instagram.com/recruitertalentpulse/"
+              target="_blank"
+              icon={BsInstagram}
+            />
+            <Footer.Icon
+              href="https://acortar.link/5P8WQy"
+              target="_blank"
+              icon={BsSlack}
+            />
+            <Footer.Icon
+              href="https://discord.gg/zdmwfKxQ"
+              target="_blank"
+              icon={BsDiscord}
+            />
           </div>
         </div>
       </div>

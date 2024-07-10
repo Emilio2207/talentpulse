@@ -59,30 +59,31 @@ const Products = () => {
             <div>
               <p className="md:w-4/5 text-sm text-neutralGrey mb-8 leading-7">
                 <span className="text-brandPrimary font-semibold">
-                  Especialización en Marketing y Tecnología:{" "}
+                  Experiencia en Marketing Digital:{" "}
                 </span>
-                Conozco las tendencias y las demandas de estos
-                sectores en constante evolución.
-              </p>
-              <p className="md:w-4/5 text-sm text-neutralGrey mb-8 leading-7">
+                Con más de cinco años trabajando en ecommerce, conozco
+                a fondo las tendencias y demandas del marketing
+                digital.
+                <br />
                 <span className="text-brandPrimary font-semibold">
-                  Red Amplia:{" "}
+                  Red Amplia y Base de Datos Extensa:{" "}
                 </span>
-                Cuento con una extensa red de contactos y recursos que
-                me permite acceder a talentos de alto nivel.
-              </p>
-              <p className="md:w-4/5 text-sm text-neutralGrey mb-8 leading-7">
+                Cuento con una extensa red de contactos y una base de
+                datos de profesionales IT y marketing digital, lo que
+                me permite acceder a candidatos de alto nivel.
+                <br />
                 <span className="text-brandPrimary font-semibold">
                   Compromiso con la Calidad:{" "}
                 </span>
-                No me conformo con menos que la excelencia en cada
-                etapa del proceso de reclutamiento.
+                Mi prioridad es la excelencia en cada etapa del
+                proceso de reclutamiento, garantizando los mejores
+                resultados para tu empresa.
               </p>
               <h5 className="text-brandPrimary text-xl font-semibold mb-2">
-                ¿Por qué Elegirme?
+                Tu mejor aliado en reclutamiento
               </h5>
               <p className="text-base text-neutralGrey mb-8">
-                British Dragon Boat Racing Association
+                Resultados excepcionales siempre.
               </p>
               <div>
                 <div className="flex items-center gap-8 flex-wrap">
@@ -116,28 +117,6 @@ const Products = () => {
                     alt=""
                     className="cursor-pointer"
                   />
-                  <div className="flex items-center gap-8">
-                    <a
-                      href="/"
-                      className="font-bold text-brandPrimary hover:text-neutral-700"
-                    >
-                      Meet all customers{" "}
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="17"
-                        height="11"
-                        viewBox="0 0 17 11"
-                        fill="none"
-                        className="inline-block ml-2"
-                      >
-                        <path
-                          d="M12 9.39905L15.2929 6.10615C15.6834 5.71563 15.6834 5.08246 15.2929 4.69194L12 1.
-                          39905M15 5.39905L1 5.39905"
-                          stroke="#4caf4f"
-                        />
-                      </svg>
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
