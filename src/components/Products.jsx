@@ -1,6 +1,6 @@
 import React from "react";
-import aboutImg from "../assets/mobile-login.png";
-import Maecenas from "../assets/maecenas.png";
+import aboutImg from "../../public/assets/mobile-login.png";
+import Maecenas from "../../public/assets/maecenas.png";
 
 const Products = () => {
   return (

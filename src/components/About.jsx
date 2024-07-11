@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import aboutImg from "../assets/about1.png";
+import aboutImg from "../../public/assets/about1.png";
 
 const About = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
