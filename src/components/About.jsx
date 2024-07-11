@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import aboutImg from "../assets/about1.png";
+import aboutImg from "./assets/about1.png";
 
 const About = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -62,7 +62,7 @@ const About = () => {
           >
             <div className="space-y-8">
               <div className="flex items-center gap-4">
-                <img src="/src/assets/icons/member.png" alt="" />
+                <img src="/assets/icons/member.png" alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
                     53+
@@ -71,7 +71,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img src="/src/assets/icons/event.png" alt="" />
+                <img src="/assets/icons/event.png" alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
                     400+
@@ -82,7 +82,7 @@ const About = () => {
             </div>
             <div className="space-y-8">
               <div className="flex items-center gap-4">
-                <img src="/src/assets/icons/club.png" alt="" />
+                <img src="/assets/icons/club.png" alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
                     60+
@@ -91,7 +91,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img src="/src/assets/icons/payment.png" alt="" />
+                <img src="/assets/icons/payment.png" alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
                     40+

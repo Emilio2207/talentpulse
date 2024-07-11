@@ -1,6 +1,6 @@
 import React from "react";
-import aboutImg from "../assets/mobile-login.png";
-import Maecenas from "../assets/maecenas.png";
+import aboutImg from "./assets/mobile-login.png";
+import Maecenas from "./assets/maecenas.png";
 
 const Products = () => {
   return (
@@ -88,32 +88,32 @@ const Products = () => {
               <div>
                 <div className="flex items-center gap-8 flex-wrap">
                   <img
-                    src="/src/assets/company1.png"
+                    src="/assets/company1.png"
                     alt=""
                     className="cursor-pointer"
                   />
                   <img
-                    src="/src/assets/company2.png"
+                    src="/assets/company2.png"
                     alt=""
                     className="cursor-pointer"
                   />
                   <img
-                    src="/src/assets/company3.png"
+                    src="/assets/company3.png"
                     alt=""
                     className="cursor-pointer"
                   />
                   <img
-                    src="/src/assets/company4.png"
+                    src="/assets/company4.png"
                     alt=""
                     className="cursor-pointer"
                   />
                   <img
-                    src="/src/assets/company5.png"
+                    src="/assets/company5.png"
                     alt=""
                     className="cursor-pointer"
                   />
                   <img
-                    src="/src/assets/company6.png"
+                    src="/assets/company6.png"
                     alt=""
                     className="cursor-pointer"
                   />

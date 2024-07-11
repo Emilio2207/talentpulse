@@ -7,21 +7,21 @@ const Services = () => {
       title: "Búsqueda y Contacto",
       descroption:
         "Identificamos y atraemos a los mejores talentos. Una vez identificados, establecemos comunicación directa para avanzar en el proceso.",
-      image: "/src/assets/icons/membership.png",
+      image: "/assets/icons/membership.png",
     },
     {
       id: 2,
       title: "Entrevista y Negociación",
       descroption:
         "Realizamos entrevistas exhautivas para evaluar habilidades y competencias. Facilitamos la negociación entre la Empresa y el candidato.",
-      image: "/src/assets/icons/group-clubs.png",
+      image: "/assets/icons/group-clubs.png",
     },
     {
       id: 3,
       title: "Onboarding y Adaptación",
       descroption:
         "Apoyamos en la integración del nuevo empleado, asegurando una transicición fluida y rápida al nuevo entorno laboral.",
-      image: "/src/assets/icons/associations.png",
+      image: "/assets/icons/associations.png",
     },
   ];
   return (
@@ -41,13 +41,13 @@ const Services = () => {
         {/* company logo */}
 
         <div className="my-12 flex flex-wrap justify-between items-center gap-8">
-          <img src="./src/assets/company1.png" alt="" />
-          <img src="./src/assets/company2.png" alt="" />
-          <img src="./src/assets/company3.png" alt="" />
-          <img src="./src/assets/company4.png" alt="" />
-          <img src="./src/assets/company5.png" alt="" />
-          <img src="./src/assets/company6.png" alt="" />
-          <img src="./src/assets/company7.png" alt="" />
+          <img src="/assets/company1.png" alt="" />
+          <img src="/assets/company2.png" alt="" />
+          <img src="/assets/company3.png" alt="" />
+          <img src="/assets/company4.png" alt="" />
+          <img src="/assets/company5.png" alt="" />
+          <img src="/assets/company6.png" alt="" />
+          <img src="/assets/company7.png" alt="" />
         </div>
       </div>
 

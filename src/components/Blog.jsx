@@ -7,21 +7,21 @@ const Blog = () => {
       title:
         "En mi labor, priorizo la eficacia y eficiencia para lograr procesos de reclutamiento ágiles y precisos.",
       subtitle: "Mi Enfoque",
-      image: "/src/assets/blog1.png",
+      image: "/assets/blog1.png",
     },
     {
       id: 2,
       title:
         "Transparencia y feedback continuo son esenciales para fomentar la confianza y lograr un ajuste perfecto.",
       subtitle: "Valores",
-      image: "/src/assets/blog2.png",
+      image: "/assets/blog2.png",
     },
     {
       id: 3,
       title:
         "Conecto talento con oportunidades, identificando candidatos adecuados para empresas innovadoras.",
       subtitle: "Mi Misión",
-      image: "/src/assets/blog3.png",
+      image: "/assets/blog3.png",
     },
   ];
   return (

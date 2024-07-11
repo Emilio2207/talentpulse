@@ -1,6 +1,6 @@
 import { Carousel } from "flowbite-react";
 import React from "react";
-import banner1 from "../assets/banner1.png";
+import banner1 from "./assets/banner1.png";
 
 const Home = () => {
   const handleScrollToConectemos = () => {
