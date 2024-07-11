@@ -4,14 +4,21 @@ import { Link } from "react-scroll";
 
 // react icons
 import { FaXmark, FaBars } from "react-icons/fa6";
+import ModalForm from "./ModalForm";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   // set toggle Menu
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  // toggle modal
+  const toggleModal = () => {
+    setIsModalOpen(!isModalOpen);
   };
 
   useEffect(() => {
@@ -80,18 +87,12 @@ const Navbar = () => {
 
           {/* btn for large devices */}
           <div className="space-x-12 hidden lg:flex items-center">
-            <a
-              href="/"
-              className="hidden lg:flex items-center text-brandPrimary 
-            hover:text-gray900"
-            >
-              Login
-            </a>
             <button
+              onClick={toggleModal}
               className="bg-brandPrimary text-white py-2 px-4 transition-all duration-300
             rounded hover:bg-neutralDGrey"
             >
-              Sign up
+              Contacto
             </button>
           </div>
 
@@ -131,6 +132,8 @@ const Navbar = () => {
           ))}
         </div>
       </nav>
+
+      <ModalForm isOpen={isModalOpen} onClose={toggleModal} />
     </header>
   );
 };

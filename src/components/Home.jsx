@@ -3,6 +3,13 @@ import React from "react";
 import banner1 from "../assets/banner1.png";
 
 const Home = () => {
+  const handleScrollToConectemos = () => {
+    const section = document.getElementById("conectemos");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="bg-neutralSilver" id="home">
       <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen h-screen">
@@ -26,7 +33,12 @@ const Home = () => {
                 Buscando el talento que lleva tu empresa al siguinete
                 nivel.
               </p>
-              <button className="btn-primary">Register</button>
+              <button
+                className="btn-primary"
+                onClick={handleScrollToConectemos}
+              >
+                Carga tu CV
+              </button>
             </div>
           </div>
           <div
@@ -47,7 +59,12 @@ const Home = () => {
               <p className="text-neutralDGrey text-base mb-8">
                 Descubriendo talento y forjando trayectorias.
               </p>
-              <button className="btn-primary">Register</button>
+              <button
+                className="btn-primary"
+                onClick={handleScrollToConectemos}
+              >
+                Carga tu CV
+              </button>
             </div>
           </div>
           <div
@@ -68,7 +85,12 @@ const Home = () => {
               <p className="text-neutralDGrey text-base mb-8">
                 Buscando y encontrando el talento perfecto para ti.
               </p>
-              <button className="btn-primary">Register</button>
+              <button
+                className="btn-primary"
+                onClick={handleScrollToConectemos}
+              >
+                Carga tu CV
+              </button>
             </div>
           </div>
         </Carousel>
