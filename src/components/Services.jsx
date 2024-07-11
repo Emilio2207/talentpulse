@@ -41,13 +41,13 @@ const Services = () => {
         {/* company logo */}
 
         <div className="my-12 flex flex-wrap justify-between items-center gap-8">
-          <img src="/src/assets/company1.png" alt="" />
-          <img src="/src/assets/company2.png" alt="" />
-          <img src="/src/assets/company3.png" alt="" />
-          <img src="/src/assets/company4.png" alt="" />
-          <img src="/src/assets/company5.png" alt="" />
-          <img src="/src/assets/company6.png" alt="" />
-          <img src="/src/assets/company7.png" alt="" />
+          <img src="./src/assets/company1.png" alt="" />
+          <img src="./src/assets/company2.png" alt="" />
+          <img src="./src/assets/company3.png" alt="" />
+          <img src="./src/assets/company4.png" alt="" />
+          <img src="./src/assets/company5.png" alt="" />
+          <img src="./src/assets/company6.png" alt="" />
+          <img src="./src/assets/company7.png" alt="" />
         </div>
       </div>
 
