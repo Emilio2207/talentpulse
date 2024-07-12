@@ -70,10 +70,16 @@ const MyFooter = () => {
             <div>
               <Footer.Title title="Legal" />
               <Footer.LinkGroup col>
-                <Footer.Link href="https://www.termsfeed.com/live/37cbda26-640c-403e-a04c-ab58cb94be84">
+                <Footer.Link
+                  href="https://www.termsfeed.com/live/37cbda26-640c-403e-a04c-ab58cb94be84"
+                  target="_blank"
+                >
                   Privacy Policy
                 </Footer.Link>
-                <Footer.Link href="https://www.freeprivacypolicy.com/live/4668d6f8-dae5-4231-b605-5f0cdca8bc61">
+                <Footer.Link
+                  href="https://www.freeprivacypolicy.com/live/4668d6f8-dae5-4231-b605-5f0cdca8bc61"
+                  target="_blank"
+                >
                   Terms &amp; Conditions
                 </Footer.Link>
               </Footer.LinkGroup>
@@ -86,6 +92,7 @@ const MyFooter = () => {
             href="https://emilio-portfolio-navy.vercel.app/"
             by="emi&vico™"
             year={2024}
+            target="_blank"
           />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon
